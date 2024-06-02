@@ -7,3 +7,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
     show_sql: true
+  cache:
+    type: redis
+    host: localhost
+    port: 9090
